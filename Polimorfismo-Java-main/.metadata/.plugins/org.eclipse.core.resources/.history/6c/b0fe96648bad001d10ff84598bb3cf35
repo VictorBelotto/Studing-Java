@@ -1,0 +1,11 @@
+
+public class testeFuncionario {
+
+	public static void main(String[] args) {
+		Funcionario victor = new Funcionario();
+		
+		victor.setSalario(100);
+		System.out.println(victor.getSalario());
+	}
+	
+}

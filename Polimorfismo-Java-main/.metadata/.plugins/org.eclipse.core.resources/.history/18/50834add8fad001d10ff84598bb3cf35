@@ -1,0 +1,9 @@
+
+public class gerente {
+
+	private int senha;
+	
+	public double getBonificacao() {
+		return this.salario;
+	}
+}

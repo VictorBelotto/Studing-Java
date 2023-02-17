@@ -1,0 +1,14 @@
+
+public class ContaPoupança extends Conta {
+	
+
+public class ContaPoupança{
+
+	public ContaPoupança(int agencia, int numero) {
+		super(agencia, numero);
+		
+	}
+	
+}
+
+}
