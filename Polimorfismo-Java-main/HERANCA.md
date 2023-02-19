@@ -40,3 +40,4 @@ class Cachorro implements Animal {
 
 ```
 Em resumo, herança e interface são duas ferramentas poderosas da programação orientada a objetos em Java. A herança permite que as classes filhas herdem atributos e métodos da classe pai e adicionem seus próprios atributos e métodos, enquanto a interface define um conjunto de métodos que uma classe deve implementar. Ambos são úteis para criar hierarquias de classes e garantir a reutilização do código.
+```
