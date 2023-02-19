@@ -39,5 +39,8 @@ class Cachorro implements Animal {
 - Nesse exemplo, a interface Animal define um único método fazerSom(). A classe Cachorro implementa a interface Animal e fornece uma implementação para o método fazerSom(). Quando o método fazerSom() é chamado em um objeto da classe Cachorro, a implementação na classe Cachorro é executada.
 
 ```
-Em resumo, herança e interface são duas ferramentas poderosas da programação orientada a objetos em Java. A herança permite que as classes filhas herdem atributos e métodos da classe pai e adicionem seus próprios atributos e métodos, enquanto a interface define um conjunto de métodos que uma classe deve implementar. Ambos são úteis para criar hierarquias de classes e garantir a reutilização do código.
-```
+Em resumo, herança e interface são duas ferramentas poderosas da programação orientada a objetos em Java. 
+A herança permite que as classes filhas herdem atributos e métodos da classe pai e adicionem seus próprios atributos e métodos, 
+enquanto a interface define um conjunto de métodos que uma classe deve implementar.
+Ambos são úteis para criar hierarquias de classes e garantir a reutilização do código.
+
