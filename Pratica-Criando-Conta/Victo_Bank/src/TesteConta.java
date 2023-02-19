@@ -3,12 +3,14 @@ public class TesteConta {
 
 	public static void main(String[] args) {
 	
-	Conta conta = new Conta();
-	conta.deposita(100);
-	
-	System.out.println(conta.getSaldo());
+		Titular victor = new Cliente("Victor", 123123);
+		ContaCorrente contaVictor = new ContaCorrente();
 		
-
+		contaVictor.setTitular(victor);
+		
+		System.out.println(contaVictor.getTitular());
+		System.out.println(victor);
+		
 		
 		
 	}

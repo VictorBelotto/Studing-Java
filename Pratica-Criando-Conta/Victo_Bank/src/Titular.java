@@ -1,25 +1,10 @@
 
-public class Titular extends Conta{
+public interface Titular{
 	
-	private String nome;
-	private int cpf;
-	
-	public Titular(String nome, int cpf) {
-		this.nome = nome;
-		this.cpf = cpf;
-	}
-	public String getNome() {
-		return nome;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public int getCpf() {
-		return cpf;
-	}
-	public void setCpf(int cpf) {
-		this.cpf = cpf;
-	}
+	public String getNome();
+	public void setNome(String nome);
+	public int getCpf();
+	public void setCpf(int cpf);
 	
 	
 }

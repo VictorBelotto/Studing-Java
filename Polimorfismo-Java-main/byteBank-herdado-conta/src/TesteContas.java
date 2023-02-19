@@ -7,7 +7,7 @@ public class TesteContas {
 		 cc.deposita(100);
 		 
 		 ContaPoupanca cp = new ContaPoupanca(321,  321);
-		 cp.deposita(200);
+		 cp.deposita(-200);
 		 
 		 
 		 
