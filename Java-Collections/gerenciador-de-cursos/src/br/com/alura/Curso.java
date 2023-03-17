@@ -31,5 +31,22 @@ import java.util.LinkedList;
 	    public void adiciona(Aula aula) {
 	    	this.aulas.add(aula);
 	    }
+	    
+	    public int getTempoTotal() {
+	    	// this.aulas.stream().mapToInt(Aula::getTempo).sum();
+	    	int tempoTotal = 0;
+	    	for (Aula aula : aulas) {
+				tempoTotal += aula.getTempo();
+	    	}
+	    	return tempoTotal;
+	    }
+	    
+	    @Override
+	    public String toString() {
+	    	
+	    	return "[Curso:" + nome + " , tempo total: " + this.getTempoTotal() + "," + "aulas:" + this.aulas +  "]";
+	    }
+	    
+	    
 	}
 
